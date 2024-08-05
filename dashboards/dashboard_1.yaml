@@ -10,7 +10,13 @@ model: advanced_commits___model
 timeseries: author_date # Select an actual timestamp column (if any) from your table
 
 dimensions: 
+- column: directory_path
+  label: "The directory"
+  description: "The name of the modified filename"
 
+- column: filename
+  label: "The filename"
+  description: "The name of the modified filename"
 
 - column: author_name
   label: "The Author's Name"
